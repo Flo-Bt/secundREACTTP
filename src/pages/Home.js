@@ -1,3 +1,4 @@
+import Countries from "../components/Countries";
 import Navigation from "../components/Navigation";
 
 //composant Accueil :
@@ -5,7 +6,8 @@ const Home = () => {
     return (
         <div className = "home">
             <Navigation />
-            <h1> Putain d'Accueil </h1>
+            <Countries />
+            <img src = " /img/night-earth.jpeg" alt = "night earth" />
         </div>
     );
 }
