@@ -7,7 +7,7 @@ const Home = () => {
         <div className = "home">
             <Navigation />
             <Countries />
-            <img src = " /img/night-earth.jpeg" alt = "night earth" />
+            <img class = "earth" src = " /img/night-earth.jpeg" alt = "night earth" />
         </div>
     );
 }
